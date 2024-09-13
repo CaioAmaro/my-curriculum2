@@ -1,0 +1,26 @@
+.resumo-profissional{
+    background-color: var(--branco);
+    margin: 1em;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.resumo-profissional__titulo{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1em 0;
+    color: var(--azul);
+}
+
+.resumo-profissional__texto{
+    padding: 0.7em 1em;
+    font-size: 18px;
+    text-align:justify;
+    font-weight: 500;
+}
+
+.resumo-profissional__destaque{
+    color: var(--laranja);
+    font-weight: 700;
+}

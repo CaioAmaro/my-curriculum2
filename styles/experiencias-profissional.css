@@ -1,0 +1,47 @@
+.experiencias-lista__item,
+.experiencias-descricao{
+    background-color: var(--branco);
+    margin: 1em;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.experiencias-descricao{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0.5em 0;
+    color: var(--azul);
+}
+
+.experiencias-lista{
+    display: flex;
+    align-items: center;
+}
+
+.experiencias__imagem{
+    width: 150px;
+}
+
+.experiencias-lista__item{
+    padding: 0.5em;
+}
+
+.experiencias-lista__cargo{
+    font-size: 20px;
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.experiencias-lista__periodo{
+    font-size: 13px;
+    margin: 1em 0;
+}
+
+.experiencias-lista__tempo{
+    font-weight: 700;
+}
+
+.experiencias{
+    margin-bottom: 2.312em;
+}
