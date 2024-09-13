@@ -1,0 +1,75 @@
+.cursos-descricao{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.cursos-descricao__titulo-pagina{
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 700;
+    text-align: center;
+    padding: 1em 0.5em;
+    margin: 1em 1em;
+    font-size: 24px;
+}
+
+.cursos-descricao__titulo{
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 700;
+    text-align: center;
+    padding: 1em 0.5em;
+    margin: 0 1em;
+}
+
+.cursos-descricao__imagem{
+    width: 50px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    padding: 1em 1em 0 1em;
+}
+
+.cursos-formacoes__curso{
+    background-color: var(--cinza-claro);
+    text-align: center;
+    margin: 0.5em 1em;
+    padding: 0.5em 0 ;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-weight: 600;
+}
+
+.cursos-cormacoes__cursos__formacao{
+    display: none;
+}
+
+.curso-formacoes__curso__titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 255, 0);
+    text-transform: uppercase;
+}
+
+.certificados{
+    background-color: var(--laranja);
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 1em;
+    border-radius: 24px;
+}
+
+.check-1:checked~.cursos-cormacoes__cursos__formacao,
+.check-2:checked~.cursos-cormacoes__cursos__formacao,
+.check-3:checked~.cursos-cormacoes__cursos__formacao,
+.check-4:checked~.cursos-cormacoes__cursos__formacao,
+.check-5:checked~.cursos-cormacoes__cursos__formacao,
+.check-6:checked~.cursos-cormacoes__cursos__formacao{
+    display: block;
+}
+
+.curso-descricao__check {
+    display: none;
+}
