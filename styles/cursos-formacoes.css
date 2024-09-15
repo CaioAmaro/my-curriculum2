@@ -73,3 +73,20 @@
 .curso-descricao__check {
     display: none;
 }
+
+
+@media screen and (min-width: 768px){
+    .cursos{
+        margin: 0 5em;
+    }
+
+    .certificados{
+        width: 30%;
+        display: flex;
+    }
+
+    .certificados-centralizacao{
+        display: flex;
+        justify-content: center;
+    }
+}

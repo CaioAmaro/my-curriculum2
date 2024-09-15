@@ -64,3 +64,18 @@
     }
 
 }
+
+@media screen and (min-width: 1024px){
+    .experiencias-profissional__caixa{
+        width: 50%;
+    }
+
+    .experiencias-lista{
+        justify-content: space-between;
+    }
+
+    .experiencias-lista__item{
+        width: 50%;
+    }
+    
+}
