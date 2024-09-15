@@ -7,3 +7,17 @@ body{
 main{
     flex-grow: 1;
 }
+
+a:hover{
+    background-color: var(--preto);
+    color: var(--laranja);
+}
+
+p:hover{
+    background-color: var(--preto);
+    color: var(--laranja);
+}
+
+p:hover>b{
+    color: var(--branco);
+}
